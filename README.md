@@ -47,6 +47,8 @@ Features
  - Hidden attributes in Array/JSON conversion
  - Appending accessors and mutators to Array/JSON conversion
  - Attribute casting
+ - Fillable / guard support
+ - Remap attribute names during fill
 
 You can read more about these features and the original Eloquent model on http://laravel.com/docs/eloquent
 
@@ -57,6 +59,6 @@ Install using composer:
 
     composer require jenssegers/model
 
-Optaional: and add an alias to the bottom of `config/app.php`:
+Optional: and add an alias to the bottom of `config/app.php`:
 
     'Model'           => 'Jenssegers\Model\Model',
